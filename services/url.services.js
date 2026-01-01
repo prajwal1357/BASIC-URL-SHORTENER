@@ -1,6 +1,6 @@
-import mongoose from "mongoose";
+
 import shortid from "shortid";
-import URL from "../model/url.model";
+import URL from "../model/url.model.js";
 
 const creatUrl=async (data)=>{
  const url=await URL.create({

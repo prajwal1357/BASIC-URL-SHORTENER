@@ -15,7 +15,7 @@ const shortSchema=mongoose.Schema({
           type:String
         }
       }
-    ]
-})
+    ],
+},{timestamps:true});
 
 export default mongoose.model("URL",shortSchema)
