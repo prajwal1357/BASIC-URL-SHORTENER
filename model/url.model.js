@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import shortid from "shortid";
+
 
 const shortSchema=mongoose.Schema({
   redirect:{
